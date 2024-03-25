@@ -130,6 +130,14 @@ body {
 .w-progress {
   width: 78%;
 }
+.rl-progress {
+  width: 50%;
+  background-color: orange;
+}
+.ts-progress {
+  width: 70%;
+  background-color: orange;
+}
 
 .skill-title {
   text-transform: uppercase;
