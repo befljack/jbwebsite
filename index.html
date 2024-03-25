@@ -2,48 +2,311 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jack Bethell</title>
+    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <script src="javascript.js"></script>
     <main class="main-content">
       <section class="left-section">
         <div class="left-content">
           <div class="profile">
-            <img src="avatar.jpg" alt="" style="width: 150px; height: 150px" />
+            <div class="image">
+              <img src="avatar.jpg" alt="" />
+            </div>
             <h2 class="name">Jack Bethell</h2>
             <p class="career">Software Engineer</p>
           </div>
           <div class="contact-info">
-            <h3 class="main-title">Contact</h3>
+            <h3 class="main-title">Contact Info</h3>
             <ul>
-              <li><span class="fa fa-phone"></span> 07795511669</li>
-              <li><span class="fa fas fa-map-marker"></span> DA14</li>
+              <li><i class="fa fa-phone"></i>07795511669</li>
+              <li><i class="fa fa-fax"></i>bethelljack@gmail.com</li>
+              <li><i class="fa fa-globe"></i>befljack.github.io/jbwebsite/</li>
               <li>
-                <span class="fa fas far fa-envelope"></span>
-                bethelljack@gmail.com
+                <i class="fa fa-linkedin"></i
+                >https://www.linkedin.com/in/jackbethell/
               </li>
-              <li><span class="fa fa-globe"></span> www.jackbethell.co.uk</li>
+              <li><i class="fa fa-instagram"></i>@bethelljack</li>
+              <li><i class="fa fa-map-marker"></i>Bexley, London</li>
+            </ul>
+          </div>
+          <div class="skills-section">
+            <h3 class="main-title">Tools & Technology</h3>
+            <ul>
               <li>
-                <span class="fa fa-linkedin"></span>
-                www.linkedin.com/jack-bethell
+                <p class="skill-title">Python</p>
+                <div class="progress-bar">
+                  <div class="progress js-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">SQL</p>
+                <div class="progress-bar">
+                  <div class="progress ps-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">C# .NET</p>
+                <div class="progress-bar">
+                  <div class="progress j-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">RPA</p>
+                <div class="progress-bar">
+                  <div class="progress c-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">AWS CI/CD</p>
+                <div class="progress-bar">
+                  <div class="progress ps-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">Typescript</p>
+                <div class="progress-bar">
+                  <div class="progress n-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">Angular</p>
+                <div class="progress-bar">
+                  <div class="progress ps-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">Touchstone</p>
+                <div class="progress-bar">
+                  <div class="progress n-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">Risk Link</p>
+                <div class="progress-bar">
+                  <div class="progress c-progress"></div>
+                </div>
               </li>
             </ul>
+          </div>
+          <div class="references-section">
+            <h3 class="main-title">References</h3>
+            <div class="referee">
+              <h6 class="sub-title">Michael Bowen</h6>
+              <p class="sub-para">Product Manager</p>
+              <ul>
+                <li>
+                  <i class="fa fa-phone"></i>
+                  07661892982
+                </li>
+                <li>
+                  <i class="fa fa-fax"></i>
+                  loremipsum@gmail.com
+                </li>
+              </ul>
+            </div>
+            <div class="referee">
+              <h6 class="sub-title">Joseph Kumar</h6>
+              <p class="sub-para">Senior Developer</p>
+              <ul>
+                <li>
+                  <i class="fa fa-phone"></i>
+                  07661892982
+                </li>
+                <li>
+                  <i class="fa fa-fax"></i>
+                  loremipsum@gmail.com
+                </li>
+              </ul>
+            </div>
+            <div class="referee">
+              <h6 class="sub-title">Rick Ross</h6>
+              <p class="sub-para">Product Manager</p>
+              <ul>
+                <li>
+                  <i class="fa fa-phone"></i>
+                  07661892982
+                </li>
+                <li>
+                  <i class="fa fa-fax"></i>
+                  loremipsum@gmail.com
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
       <section class="right-section">
-        <div id="currencyDate"></div>
-        <div id="currencyList"></div>
+        <div class="right-main-content">
+          <section class="about sect">
+            <h2 class="right-title">About Me</h2>
+            <p class="para">
+              Software Developer currently working in Enterprise Risk
+              Management, specifically CAT and Non-CAT Exposure Management.
+              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto iusto porro suscipit. Nihil blanditiis cum voluptates
+              odio recusandae deleniti, nulla repudiandae aliquam adipisci iusto
+              reiciendis sequi labore quos ratione accusamus consectetur, libero
+              ex assumenda pariatur commodi animi nobis, dolore id.
+            </p>
+          </section>
+
+          <section class="experince sect">
+            <h2 class="right-title">Experience</h2>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Liberty Specialty Markets</h5>
+                <p class="para">2021 - Present</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">Exposure Management Developer</h5>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias cupiditate vitae voluptatem deleniti, laboriosam
+                    odio nobis quae fugit facilis quo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Bell & Clements</h5>
+                <p class="para">2015 - 2021</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">Software Engineer</h5>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias cupiditate vitae voluptatem deleniti, laboriosam
+                    odio nobis quae fugit facilis quo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Unviersity of Greenwich</h5>
+                <p class="para">2014 - 2015</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">
+                    Lead Developer Maritime City Project
+                  </h5>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias cupiditate vitae voluptatem deleniti, laboriosam
+                    odio nobis quae fugit facilis quo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="education sect">
+            <h2 class="right-title">education</h2>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">University of Greenwich</h5>
+                <p class="para">2011 - 2014</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">
+                    BSC(Hons) Computing with Games Development
+                  </h5>
+                  <p class="para">
+                    First Class degree with Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Molestias cupiditate vitae
+                    voluptatem deleniti, laboriosam odio nobis quae fugit
+                    facilis quo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Orpington College</h5>
+                <p class="para">2008 - 2010</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">BTEC National Diploma</h5>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias cupiditate vitae voluptatem deleniti, laboriosam
+                    odio nobis quae fugit facilis quo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Hurstmere School</h5>
+                <p class="para">2018 - Present</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">Computer Science</h5>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias cupiditate vitae voluptatem deleniti, laboriosam
+                    odio nobis quae fugit facilis quo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="awards sect">
+            <h2 class="right-title">Awards</h2>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Verisk</h5>
+                <p class="para">June 2022</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">Certified Extreme Event Modeller</h5>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias cupiditate vitae voluptatem deleniti, laboriosam
+                    odio nobis quae fugit facilis quo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="left-tl-content">
+                <h5 class="tl-title">Alphabet Inc</h5>
+                <p class="para">June 2016</p>
+              </div>
+              <div class="right-tl-content">
+                <div class="tl-content">
+                  <h5 class="tl-title-2">The Star Employee</h5>
+                  <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias cupiditate vitae voluptatem deleniti, laboriosam
+                    odio nobis quae fugit facilis quo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </section>
-      <div><button onclick="toTop()">To Top</button></div>
     </main>
   </body>
 </html>
