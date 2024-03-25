@@ -116,13 +116,13 @@ body {
   width: 70%;
 }
 .ps-progress {
-  width: 90%;
+  width: 65%;
 }
 .j-progress {
   width: 85%;
 }
 .c-progress {
-  width: 40%;
+  width: 60%;
 }
 .n-progress {
   width: 63%;
@@ -131,11 +131,11 @@ body {
   width: 78%;
 }
 .rl-progress {
-  width: 50%;
+  width: 60%;
   background-color: orange;
 }
 .ts-progress {
-  width: 70%;
+  width: 90%;
   background-color: orange;
 }
 
